@@ -1,3 +1,6 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
 /* Universal Selector */
 *{
     margin:0;
@@ -22,6 +25,7 @@ h1{
 
 /* Class Selector  */
 .container{
+    /* Backgrounds on css   */
     /* Talking about backgrounds here */
     background-color:red;
     background-image:url('./Why Tutgo.png');
@@ -64,6 +68,33 @@ h3{
     color:rgb(255, 25, 25)
 }
 
-/* Backgrounds on css   */
+/* Fonts in css  */
+.fonts{
+    font-family:"Kalnia Glaze", serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    /* font-style: italic; */
+    /* font-size-adjust: inherit; */
+    /* font-variant:small-caps; */
+    font-stretch:expanded;
 
-
+    /* Text Shadow */
+    text-shadow:0 0 20px blue;
+}
+.text{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    /* direction:ltr; */
+    /* Space between Characters */
+    /* letter-spacing: 30px; */
+    /* Space between Words */
+    /* word-spacing: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    /* Text Cases */
+    text-transform: capitalize;
+    /* White Space between Text */
+    white-space:900;
+}
