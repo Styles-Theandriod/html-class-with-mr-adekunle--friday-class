@@ -1,0 +1,69 @@
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Type Selector  */
+h1{
+    /* background-color:red; */
+}
+
+/* Decendant Selector  */
+.container h1{
+    color:blue;
+}
+
+/* Child Selector */
+.container > h1{
+    color:orange;
+}
+
+
+/* Class Selector  */
+.container{
+    /* Talking about backgrounds here */
+    background-color:red;
+    background-image:url('./Why Tutgo.png');
+    background-repeat:no-repeat;
+    background-position:contain;
+    background-attachment:fixed;
+    /* Shorthand Property */
+    /* background:red url('./Why Tutgo.png') no-repeat; */
+    height:500px;
+    width:90%;
+    margin:30px;
+}
+
+/* Attribute Selector */
+input[type="email"], input[type="password"]{
+    width:30%;
+    padding:10px;
+}
+
+form{
+    padding:10px;
+}
+
+
+/* Mesuring Units and colors */
+/* px % rem  */
+/* 1rem = 16px  */
+
+h3{
+    font-size:40px;
+    text-align:center;
+    /* Colors in css  */
+    /* color:red */
+    /* Hex Codes */
+    /* 0 - 9 a - f */
+    color:#000000;
+
+    /* RGB Color Values */
+    /* 0 - 255  */
+    color:rgb(255, 25, 25)
+}
+
+/* Backgrounds on css   */
+
+
